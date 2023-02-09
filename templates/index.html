@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <link rel="stylesheet"  href="{{ url_for('static', filename='css/styles.css')}}">
+    <title>Домашнее задание к 47 уроку</title>
+</head>
+<body>
+    <h2>Сайт инвентаризации</h2>
+    </form>
+    <ol>
+        {% for good in goods %}
+            <li>{{good}}</li>
+        {% endfor %}
+    </ol>
+</body>
+</html>

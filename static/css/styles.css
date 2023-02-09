@@ -1,0 +1,13 @@
+html, body {    
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(87, 94, 80);
+}
