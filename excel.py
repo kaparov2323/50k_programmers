@@ -10,3 +10,13 @@ def open_file():
             if cell.value != None:
                 lst.append(cell.value)
     return lst
+
+
+def add_to_cell(*value):
+    wb = openpyxl.open('goods.xlsx')
+    sheet = wb.active
+
+    sheet.append(value)
+    wb.save('goods.xlsx')
+    wb.close()
+    
